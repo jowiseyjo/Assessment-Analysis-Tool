@@ -9,6 +9,13 @@ Estimating test reliability using Cronbach's Alpha
 Producing graphical visualizations of assessment results
 Generating professional PDF item analysis reports
 The system uses a simple Graphical User Interface (GUI) to make statistical analysis accessible even to users without programming knowledge.
+
+## Download
+
+Download the latest version of the software here:
+https://github.com/jowiseyjo/Assessment-Analysis-Tool/releases
+After opening the page, click **AssessmentTool.exe** under Assets to download the application.
+
 Key Features
 1.	Simulated Data Generator
 Users can generate simulated binary test response data by specifying:
