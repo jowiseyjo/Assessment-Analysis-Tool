@@ -10,7 +10,7 @@ Producing graphical visualizations of assessment results
 Generating professional PDF item analysis reports
 The system uses a simple Graphical User Interface (GUI) to make statistical analysis accessible even to users without programming knowledge.
 Key Features
-Simulated Data Generator
+1.	Simulated Data Generator
 Users can generate simulated binary test response data by specifying:
 Number of pupils
 Number of test items
@@ -18,14 +18,14 @@ The simulator uses a probabilistic logistic model to generate realistic response
 Outputs generated:
 CSV dataset of simulated responses
 Full PDF item analysis report
-Upload Real Test Data
+2.	Upload Real Test Data
 Users can upload their own CSV dataset containing student responses.
 Requirements:
 Rows represent students
 Columns represent test items
 Responses should be coded as 0 (incorrect) or 1 (correct)
 The software will automatically analyze the uploaded data and produce a PDF report.
-Automatic Item Analysis
+3.	Automatic Item Analysis
 For each test item, the software calculates:
 Item Difficulty (p-value)
 Item Discrimination (item-total correlation)
@@ -35,16 +35,16 @@ Good Item
 Too Easy
 Too Difficult
 Review Item
-Test Reliability Estimation
+4.	Test Reliability Estimation
 The software computes Cronbach's Alpha, a widely used measure of test reliability in educational measurement.
 This helps determine whether a test is internally consistent and suitable for assessment purposes.
-Graphical Analysis
+5.	Graphical Analysis
 The generated report includes graphical summaries such as:
 Distribution of total test scores
 Item difficulty distribution
 Item Characteristic Curves (ICCs)
 These visualizations help users better interpret the quality of their assessment items.
-Automatic PDF Report Generation
+6.	Automatic PDF Report Generation
 The system automatically generates a professional item analysis report in PDF format.
 The report includes:
 Test summary information
@@ -118,3 +118,4 @@ Email: jowisey@gmail.com
 Phone: +2347030429845
 License
 This project is available for educational and research purposes.
+
